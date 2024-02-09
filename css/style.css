@@ -1,0 +1,348 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Protest Riot', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header.nav{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9999;
+    background-color: #D2E3C8;
+}
+
+header.nav .logo img{
+    height: 80px;
+    width: 80px;
+}
+
+header.nav .list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.list a{
+    text-decoration: none;
+    color: #4F6F52;
+    font-size: 1.2rem;
+}
+
+.list li:hover a{
+    transition: all 0.4s ease-in-out;
+    color: #86A789;
+}
+
+.contain {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.sliders h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-weight: bolder;
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -200%);
+}
+
+.sliders h6{
+    position: absolute;
+    color: #4F6F52;
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 25px;
+    background-color: #D2E3C8;
+    padding: 5px;
+    text-align: center;
+}
+
+.sliders {
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: 530px;
+}
+
+.title{
+    color:#4F6F52;
+    text-align: center;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+#content-one{
+    display: flex;
+    padding: 0px 80px;
+}
+
+article h2{
+    color: #4F6F52;
+}
+
+article p {
+    color: #333633;
+}
+
+aside .pict img{
+    width: 200px;
+    height: 200px;
+}
+
+.two aside {
+    order: -1;
+}
+
+#content-two{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    background-color: #D2E3C8;
+    padding: 0px;
+}
+
+
+.title-two{
+    color: #4F6F52;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.card {
+    margin:10px 0px ;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #D2E3C8;
+    transition: 0.3s;
+    width: 280px;
+    padding: 0px;
+    background-color: white;
+}
+
+.card h4 b{
+    color: #4F6F52;
+}
+
+.card p{
+    color: #333633;
+}
+
+.card button{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    background-color: #4F6F52;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.card button:hover{
+    background-color: #D2E3C8;
+    color: #4F6F52;
+    transition: all 0.4s ease-in-out;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #4F6F52;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+section .layanan{
+    margin: 200px 0px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0px 10px;
+}
+
+.layanan h1{
+    flex-basis: 100%;
+    font-size: 30px;
+    color: #4F6F52;
+}
+
+.layanan h4{
+    color: #4F6F52;
+}
+
+.layanan p{
+    flex-basis: 100%;
+    position: relative;
+    margin-top:-50px;
+    color: #333633;
+}
+
+.box{
+    width: 400px;
+    margin: auto;
+}
+
+.box img{
+    width: 80px;
+}
+
+.box p{
+    margin-top: 20px;
+}
+
+.layanan .box .truck{
+    position: relative;
+    top: 15px;
+}
+
+#profile {
+    display: flex;
+    text-align: center;
+    padding: 0px 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #D2E3C8;
+}
+
+.me {
+    margin: 60px 0px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #4F6F52;
+    transition: 0.3s;
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    background-color: white;
+}
+
+.contact{
+    width: 300px;
+    text-align: start;
+    background-color: #4F6F52;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 15px;
+    color: #D2E3C8;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 #4F6F52;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.contact button{
+    background-color: #D2E3C8;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4F6F52;
+}
+
+.contact button:hover{
+    background-color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact form textarea{
+    height: 100px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .slider img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .title h1{
+        font-size: 25px;
+    }
+
+    main #content-one{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    aside .pict img{
+        margin-top: 50px;
+    }
+
+    main #content-two{
+        margin-top: 250px;
+    }
+
+    .card{
+        width: 180px;
+    }
+
+    .sliders h1 {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        font-weight: bolder;
+        font-size: 20px;
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%, -100%);
+    }
+
+    .sliders h6 {
+        position: absolute;
+        color: #4F6F52;
+        font-size: 10px;
+        left: 50%;
+        top: 30%;
+        background-color: #D2E3C8;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #profile {
+        margin-bottom: 300px;
+        gap: 30px;
+    }
+
+    .contact{
+        margin-bottom: 100px;
+    }
+}
