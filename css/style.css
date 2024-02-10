@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -128,6 +132,9 @@ header.nav ul.list{
     color:#4F6F52;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: -10px;
+    position: relative;
+    top: 10px;
 }
 
 main{
@@ -137,15 +144,19 @@ main{
 
 #content-one{
     display: flex;
-    padding: 0px 80px;
+    padding: 0px 150px;
+    gap: 20px;
 }
 
-article h2{
-    color: #4F6F52;
+#content-one article{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 article p {
     color: #333633;
+    line-height: 1.5;
 }
 
 aside {
@@ -157,6 +168,8 @@ aside {
 aside .pict img{
     width: 200px;
     height: 200px;
+    top: -30px;
+    position: relative;
 }
 
 .two aside {
@@ -178,6 +191,11 @@ aside .pict img{
     color: #4F6F52;
     flex-basis: 100%;
     text-align: center;
+    margin: 40px 0px;
+}
+
+.title-two p{
+    color: #333633;
 }
 
 .card {
@@ -187,7 +205,6 @@ aside .pict img{
     box-shadow: 0 4px 8px 0 #D2E3C8;
     transition: 0.3s;
     width: 280px;
-    padding: 0px;
     background-color: white;
 }
 
@@ -197,6 +214,7 @@ aside .pict img{
 
 .card p{
     color: #333633;
+    margin-top: -10px;
 }
 
 .card img{
@@ -276,16 +294,31 @@ section .layanan{
     top: 15px;
 }
 
+.profil .title{
+color: #4F6F52;
+top: 120px;
+}
+
+.profil p{
+    color: #333633;
+    top: 140px;
+    position: relative;
+    text-align: center;
+}
+
 #profile {
     display: flex;
     text-align: center;
     padding: 0px 40px;
     justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
     flex-wrap: wrap;
     background-color: #D2E3C8;
+    height: 900px;
 }
 
-.me {
+aside .me {
     margin: 60px 0px;
     margin-bottom: 100px;
     border-radius: 20px;
@@ -293,16 +326,20 @@ section .layanan{
     transition: 0.3s;
     width: 300px;
     height: 400px;
-    padding: 0px;
+    position: relative;
+    top: 50px;
     background-color: white;
 }
 
 .me .container h4{
     color: #4F6F52;
+    margin-top: 50px;
 }
 
 .me .container p{
     color: #333633;
+    position: relative;
+    top: 0px;
 }
 
 .contact{
@@ -363,6 +400,7 @@ textarea {
 
 .email p{
     color: #333633;
+    margin-top: 30px;
 }
 
 footer .footer{
@@ -373,7 +411,6 @@ footer .footer{
     align-items: center;
     justify-content: center;
     color: #4F6F52;
-    gap: 20px;
 }
 
 
@@ -428,17 +465,14 @@ footer .footer{
 
     .title h1 {
         font-size: 25px;
+        margin-top: -35px;
+        margin-bottom: 25px;
     }
 
     main #content-one{
         flex-direction: column;
         align-items: center;
         padding: 0px 20px;
-    }
-
-   #content-one .one{
-        /* order: -1; */
-        margin-bottom: 50px;
     }
 
     aside .pict img{
@@ -460,9 +494,13 @@ footer .footer{
     }
 
     #profile {
-        margin-bottom: 300px;
-        gap: 30px;
+        margin-bottom: 150px;
+        height: 1200px;
     }
+
+    #profile aside{
+        margin-top: 80px
+    };
 
     .contact{
         margin-bottom: 100px;
