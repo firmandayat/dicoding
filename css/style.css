@@ -411,7 +411,11 @@ footer .footer{
     align-items: center;
     justify-content: center;
     color: #4F6F52;
+    font-size: small;
+    font-weight: 500;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
