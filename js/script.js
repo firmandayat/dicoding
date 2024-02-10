@@ -19,14 +19,13 @@ function otomatis() {
   setTimeout(otomatis, 3000);
 }
 
-const toggle = document.querySelector('.toggle-btn')
-const toggleBtn = document.querySelector('.toggle-btn i')
-const dropDown = document.querySelector('.dropdown-menu')
+const toggle = document.querySelector(".toggle-btn");
+const toggleBtn = document.querySelector(".toggle-btn i");
+const dropDown = document.querySelector(".dropdown-menu");
 
 toggle.onclick = function () {
-  dropDown.classList.toggle('open')
-  const isOpen = dropDown.classList.contains('open')
+  dropDown.classList.toggle("open");
+  const isOpen = dropDown.classList.contains("open");
 
   toggleBtn.classList = isOpen ? "fa fa-times" : "fa-solid fa-bars";
-  
-}
+};
