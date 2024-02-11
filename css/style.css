@@ -63,7 +63,6 @@ header.nav ul.list{
     text-align: center;
     background-color: #D2E3C8;
     right: 20px;
-    transition: all 0,5 cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 5px;
     display: none;
 }
@@ -385,8 +384,6 @@ footer .footer{
     font-size: small;
     font-weight: 500;
 }
-
-
 
 
 @media screen and (max-width: 768px) {
