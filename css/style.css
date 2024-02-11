@@ -103,6 +103,27 @@ header.nav ul.list{
     height: 530px;
 }
 
+.text{
+    color: white;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 35%;
+    font-size: 50px;
+}
+
+.desc {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
 .title{
     color:#4F6F52;
     text-align: center;
@@ -412,6 +433,28 @@ footer .footer{
         position: relative;
         top: -25px;
         object-fit: cover;
+    }
+
+    .text {
+        color: white;
+        position: absolute;
+        z-index: 9999;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: 20%;
+        font-size: 20px;
+    }
+
+    .desc {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 25%;
+        align-items: center;
+        width: 100%;
+        font-size: 10px;
+        color: white;
     }
 
     .title h1 {
