@@ -487,7 +487,7 @@ footer .footer{
         width: 100%;
         display: flex;
         justify-content: center;
-        top: 13%;
+        top: 15%;
         font-size: 20px;
     }
 
@@ -495,7 +495,7 @@ footer .footer{
         position: absolute;
         display: flex;
         justify-content: center;
-        top: 17%;
+        top: 20%;
         align-items: center;
         width: 100%;
         font-size: 10px;
