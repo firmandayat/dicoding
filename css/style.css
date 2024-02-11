@@ -306,7 +306,7 @@ top: 120px;
     text-align: center;
 }
 
-#profile {
+#Contact {
     display: flex;
     text-align: center;
     padding: 0px 40px;
@@ -497,12 +497,12 @@ footer .footer{
         width: 180px;
     }
 
-    #profile {
+    #Contact {
         margin-bottom: 150px;
         height: 1200px;
     }
 
-    #profile aside{
+    #Contact aside{
         margin-top: 80px
     };
 
