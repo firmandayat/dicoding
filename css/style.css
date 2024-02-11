@@ -47,13 +47,14 @@ header.nav ul.list{
 .logo h1{
     color: #4F6F52;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .list a{
     text-decoration: none;
     color: #4F6F52;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .list li:hover a{
