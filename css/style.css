@@ -37,6 +37,19 @@ header.nav ul.list{
     gap: 2rem;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo h1{
+    color: #4F6F52;
+    font-size: 17px;
+    font-weight: 600;
+}
+
 .list a{
     text-decoration: none;
     color: #4F6F52;
@@ -438,6 +451,12 @@ footer .footer{
             height: 30px;
             width: 30px;
         }
+
+    .logo h1 {
+        color: #4F6F52;
+        font-size: 10px;
+        font-weight: 600;
+    }
 
     .dropdown-menu.open {
         display: block;
