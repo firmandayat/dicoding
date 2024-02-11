@@ -407,6 +407,31 @@ footer .footer{
 }
 
 
+@media screen and (max-width: 1024px){
+
+.text {
+        color: white;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: 20%;
+        font-size: 50px;
+    }
+
+    .desc {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        color: white;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     
     header.nav .logo img {
@@ -442,7 +467,7 @@ footer .footer{
         width: 100%;
         display: flex;
         justify-content: center;
-        top: 20%;
+        top: 13%;
         font-size: 20px;
     }
 
@@ -450,7 +475,7 @@ footer .footer{
         position: absolute;
         display: flex;
         justify-content: center;
-        top: 25%;
+        top: 17%;
         align-items: center;
         width: 100%;
         font-size: 10px;
