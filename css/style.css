@@ -91,32 +91,8 @@ header.nav ul.list{
 }
 
 .contain {
-    display: flex;
     margin-top: 80px;
     width: 100%;
-}
-
-.sliders h1{
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-weight: bolder;
-    font-size: 50px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -200%);
-}
-
-.sliders h6{
-    position: absolute;
-    color: #4F6F52;
-    font-size: 30px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -100%);
-    font-size: 25px;
-    background-color: #D2E3C8;
-    padding: 5px;
-    text-align: center;
 }
 
 .sliders {
@@ -135,11 +111,6 @@ header.nav ul.list{
     margin-bottom: -10px;
     position: relative;
     top: 10px;
-}
-
-main{
-    display: flex;
-    width: 100%;
 }
 
 #content-one{
@@ -181,7 +152,7 @@ aside .pict img{
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-bottom: 100px;
     background-color: #D2E3C8;
     padding: 0px;
@@ -251,7 +222,7 @@ img {
 }
 
 section .layanan{
-    margin: 200px 0px;
+    margin: 150px 0px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -383,7 +354,7 @@ textarea {
 }
 
 .email{
-    margin: 250px 0px;
+    margin: 200px 0px;
     text-align: center;
 }
 
@@ -469,7 +440,7 @@ footer .footer{
     } 
 
     main #content-two{
-        margin-top: 250px;
+        margin-top: 150px;
     }
 
     .card{
