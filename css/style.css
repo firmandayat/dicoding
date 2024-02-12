@@ -66,6 +66,8 @@ header.nav ul.list{
     color: #4F6F52;
     font-size: 20px;
     display: none;
+    background-color: transparent;
+    border: none;
 }
 
 .dropdown-menu{
@@ -82,7 +84,7 @@ header.nav ul.list{
 }
 
 .list .toggle-btn:hover{
-    opacity: 70%;;
+    opacity: 70%;
 }
 
 .dropdown-menu.open{
@@ -225,6 +227,7 @@ aside .pict img{
 .card img{
     height: 150px;
     object-fit: cover;
+    width: 100%;
 }
 
 .card button{
@@ -334,6 +337,10 @@ aside .me {
     position: relative;
     top: 50px;
     background-color: white;
+}
+
+.me img {
+    width: 100%;
 }
 
 .me .container h4{
@@ -477,13 +484,11 @@ footer .footer{
         object-fit: cover;
         position: relative;
         top: -25px;
-        object-fit: cover;
     }
 
     .text {
         color: white;
         position: absolute;
-        z-index: 9999;
         width: 100%;
         display: flex;
         justify-content: center;
