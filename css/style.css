@@ -24,6 +24,7 @@ header.nav{
     justify-content: space-around;
     z-index: 9999;
     background-color: #D2E3C8;
+    box-shadow: 0px 0px 20px rgb(161, 160, 160);
 }
 
 header.nav .logo img{
@@ -177,6 +178,7 @@ aside .pict img{
     height: 200px;
     top: -30px;
     position: relative;
+    filter: drop-shadow(10px 7px 10px #86A789);
 }
 
 .two aside {
@@ -291,6 +293,7 @@ section .layanan{
 
 .box img{
     width: 80px;
+    filter: drop-shadow(10px 7px 10px #86A789);
 }
 
 .box p{
