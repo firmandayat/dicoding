@@ -29,3 +29,15 @@ toggle.onclick = function () {
 
   toggleBtn.classList = isOpen ? "fa fa-times" : "fa-solid fa-bars";
 };
+
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "80px",
+  duration: 2000,
+  reset: true,
+});
+sr.reveal(".scroll");
+sr.reveal(".sc1", {delay:200});
+sr.reveal(".sc2", { delay: 400 });
+sr.reveal(".sc3", { delay: 600 });
+
