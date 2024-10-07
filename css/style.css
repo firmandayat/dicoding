@@ -269,7 +269,7 @@ section .layanan{
     padding: 0px 10px;
 }
 
-.layanan h1{
+.layanan h2{
     flex-basis: 100%;
     font-size: 30px;
     color: #4F6F52;
@@ -463,7 +463,7 @@ footer .footer{
             width: 30px;
         }
 
-    .logo h1 {
+    .logo h2 {
         color: #4F6F52;
         font-size: 10px;
         font-weight: 600;
@@ -510,7 +510,7 @@ footer .footer{
         color: white;
     }
 
-    .title h1 {
+    .title h2 {
         font-size: 25px;
         margin-top: -35px;
         margin-bottom: 25px;
