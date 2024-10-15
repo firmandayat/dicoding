@@ -209,7 +209,6 @@ aside .pict img{
 
 .card {
     margin:10px 0px ;
-    margin-bottom: 100px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 #D2E3C8;
     transition: 0.3s;
@@ -240,6 +239,7 @@ aside .pict img{
     width: 100px;
     height: 30px;
     font-weight: bold;
+    border-style: none
 }
 
 .card button:hover{
