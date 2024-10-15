@@ -16,6 +16,10 @@ body {
     flex-direction: column;
 }
 
+input, textarea, button{
+    border-style: none;
+}
+
 header.nav{
     width: 100%;
     display: flex;
